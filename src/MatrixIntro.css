@@ -1,0 +1,33 @@
+.matrix-container {
+    position: relative;
+    width: 100%;
+    height: 45vh;
+    overflow: hidden;
+  }
+  
+  .matrix-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .matrix-text {
+    position: relative;
+    z-index: 2;
+    color: #0F0;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  .matrix-text p {
+    margin: 10px 0;
+    font-size: 1.5em;
+  }
+  

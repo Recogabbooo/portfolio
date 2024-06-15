@@ -1,32 +1,78 @@
 .App {
   text-align: center;
 }
+nav{
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  justify-content: space-between;
+  justify-items: flex-start;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar_ul{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+
+  
+}
+.navbar_li{
+  list-style: none;
+}
+.App-header {
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  background-color: #282c34;
+  min-height: 3vh;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  .profile-picture{
+    margin: 0.5rem;
+    position: relative;
+    left: -15%;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 0.01rem solid white;
+  }
+  .welcome{
+    font-size: 2rem;
+    position: relative;
+    text-align: center;
+    left: -2rem;
+  }
+}
+h1{
+  padding: 1rem;
+  font-size: 1rem;
+  text-align: justify;
+  overflow: auto;
+}
+p{
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1rem;
+  text-align: justify;
+}
+.about_me{
+  position: relative;
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 1rem;
+  
+}
+.p_about_me{
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1rem;
+  color: white;
+  text-align: justify;
+  background-color: #282c34;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
